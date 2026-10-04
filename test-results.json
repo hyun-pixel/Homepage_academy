@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-04T07:14:27.726Z",
+  "status": "passed",
+  "assertions": 223,
+  "courseCombinations": 18,
+  "counselingCombinations": 54,
+  "teacherAssets": 6,
+  "routes": 6,
+  "announcementDesigns": 3,
+  "browserVisualQA": "not performed: CUA runtime could not start (Windows sandbox ACL / trusted Node error)",
+  "limitations": [
+    "PC/mobile visual rendering and real browser interaction remain unverified.",
+    "No real counseling, deployment, login, or database."
+  ]
+}

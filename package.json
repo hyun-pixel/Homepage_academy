@@ -1,0 +1,1 @@
+{"name":"jeil-academy-concept","private":true,"type":"module","scripts":{"start":"node server.mjs","check":"node --check dist/app.js && node --check dist/data.js && node test.mjs"},"description":"Local fictional Korean academy concept with vendored GSAP. No external API."}

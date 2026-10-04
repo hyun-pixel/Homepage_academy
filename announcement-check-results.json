@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "assertions": 14,
+  "scope": "Popup controller logic with minimal DOM stubs; not browser rendering"
+}

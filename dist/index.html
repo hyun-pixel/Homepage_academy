@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="너의 가능성을, 제일 높이. 고등 1–3학년을 위한 제일종합학원.">
+<title>제일종합학원 · 너의 가능성을, 제일 높이.</title>
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+<link rel="preload" href="/assets/vendor/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 이동</a>
+<header class="site-header">
+<a class="brand" href="/" data-route aria-label="제일종합학원 홈"><img src="/assets/logo.svg" width="32" height="34" alt=""><span>제일<span class="brand-light">종합학원</span></span></a>
+<nav class="desktop-nav" aria-label="주 메뉴">
+<a href="/about" data-route>학원 소개</a><a href="/courses" data-route>교육 과정</a><a href="/teachers" data-route>강사진</a><a href="/learning" data-route>학습 관리</a><a href="/news" data-route>학원 소식</a>
+</nav>
+<div class="header-actions"><button class="button button-primary button-small" data-consult>학습 상담</button><button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button></div>
+</header>
+<main id="main" tabindex="-1"></main>
+<footer class="site-footer">
+<div class="footer-top"><a class="brand" href="/" data-route><img src="/assets/logo.svg" width="32" height="34" alt=""><span>제일<span class="brand-light">종합학원</span></span></a><p>너의 가능성을, 제일 높이.</p><button class="text-button" data-top>맨 위로</button></div>
+<div class="footer-bottom"><p>서울시 강남구 대치동</p><span>© 2026 JEIL ACADEMY</span></div>
+</footer>
+<dialog id="mobile-menu" class="menu-dialog" aria-label="전체 메뉴"><button class="dialog-close" data-close aria-label="메뉴 닫기">닫기</button><nav aria-label="모바일 주 메뉴"><a href="/about" data-route>학원 소개</a><a href="/courses" data-route>교육 과정</a><a href="/teachers" data-route>강사진</a><a href="/learning" data-route>학습 관리</a><a href="/news" data-route>학원 소식</a></nav><button class="button button-primary" data-consult>학습 상담</button></dialog>
+<dialog id="consult-dialog" class="content-dialog consult-dialog" aria-label="학습 방향 상담"><button class="dialog-close" data-close aria-label="학습 상담 닫기">닫기</button><div id="consult-content"></div></dialog>
+<dialog id="detail-dialog" class="content-dialog" aria-label="상세 정보"><button class="dialog-close" data-close aria-label="상세 정보 닫기">닫기</button><div id="detail-content"></div></dialog>
+<button class="announcement-launcher" data-announcements aria-haspopup="dialog" aria-controls="announcement-dialog"><img src="/assets/logo.svg" alt="" width="18" height="20"><span>제일 소식</span></button>
+<p id="announcement-storage-status" class="sr-only" role="status"></p>
+<dialog id="announcement-dialog" class="announcement-dialog" aria-label="제일종합학원 주요 소식">
+<div class="announcement-header"><span>제일의 새로운 소식</span></div>
+<div class="announcement-navigation"><div id="announcement-tabs" class="announcement-tabs" role="group" aria-label="소식 선택"></div><div class="announcement-paging"><button data-announcement-step="-1" aria-label="이전 소식">이전</button><span class="announcement-count" id="announcement-count">1 / 3</span><button data-announcement-step="1" aria-label="다음 소식">다음</button></div></div>
+<div id="announcement-poster" aria-live="polite" aria-atomic="true"></div>
+<div class="announcement-footer"><label class="announcement-hide-label"><input type="checkbox" id="announcement-hide-today">오늘 하루 보지 않기</label><button data-close>닫기</button></div>
+</dialog>
+<noscript><div class="noscript">이 홈페이지의 화면 전환과 학습 상담을 보려면 브라우저의 JavaScript를 켜 주세요.</div></noscript>
+</body>
+</html>
+
